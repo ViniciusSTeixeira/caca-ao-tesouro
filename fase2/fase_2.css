@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+.corpo {
+  width: 100%;
+  height: 100%;
+  background-image: url(img_fase2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.form p {
+  margin-left: 20px;
+}
+.decisao {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.box {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+  align-items: center;
+}
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+button p {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+.icone {
+  width: 30px;
+}
