@@ -39,6 +39,7 @@ h1 {
 }
 .form p {
   margin-left: 20px;
+  font-weight: bolder;
 }
 .decisao {
   display: flex;
@@ -53,6 +54,8 @@ h1 {
   margin-bottom: 50px;
   padding-top: 15px;
   align-items: center;
+  border: black solid 1px;
+  box-shadow: 2px 2px 2px; 
 }
 button {
   width: 150px;
